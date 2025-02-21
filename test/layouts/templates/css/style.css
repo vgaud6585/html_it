@@ -1,5 +1,8 @@
 
 /* write your css here */
+* {
+  box-sizing: border-box;
+}
 body {
   box-sizing: border-box;
   background-color: #e1fbfa;
@@ -14,12 +17,6 @@ body {
 }
 .clickable:hover {
   border: 1px solid red;
-}
-.outer {
-  width: 90%;
-  height: 180px;
-  background-color: pink;
-  margin: auto;
 }
 .info {
   box-sizing: border-box;

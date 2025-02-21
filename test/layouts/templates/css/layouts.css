@@ -1,0 +1,29 @@
+
+body {
+  background-color: #b7c8c6;
+}
+
+ul {
+  list-style-type: none;
+}
+.user-image, .user-name, .users-list {
+  border: 2px solid ;
+  
+}
+.users-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.users-list ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.users-list ul li {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
